@@ -1,0 +1,83 @@
+.createDiv {
+    display: grid;
+    grid-template-columns: minmax(200px, 400px) minmax(200px, 400px);
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+.loginDiv1 {
+    background-image: url("images/house-69.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.createUser1 {
+    background-image: url("images/unsplash4.png");
+    background-position: center;
+    background-size: cover; 
+}
+.formDiv {
+    background-color: #b2c7dd;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+.input3 {
+    padding-bottom: 10px;
+}
+.inputChecked {
+    width: 4% !important;
+    margin-bottom: 9px;
+}
+.para {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.loginImg {
+    height: 50px;
+    width: 50px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    background-color: #e6edf4;
+    border-radius: 50%;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+.h1{
+    color: aliceblue;
+    font-size: 2rem;
+    padding-top: 299px;
+}
+.btn8 {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #054A91;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.btn8:hover {
+    background-color: #5886b5;
+    border: 1px solid #5886b5;
+    color: #e6edf4;
+}
+@media (max-width: 800px) {
+    .createDiv {
+        grid-template-columns: 0px 300px;
+    }
+    .h1 {
+        display: none;
+    }
+    .loginImg {
+        margin-left: 70px;
+    }
+    .formDiv {
+        border-radius: 12px;
+    }
+}

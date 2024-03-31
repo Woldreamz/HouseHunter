@@ -1,0 +1,19 @@
+
+.loginTop{
+    background-image: url("images/unsplash.png");
+    text-align: center;
+    padding-bottom: 87px;
+    padding-top: 37px; 
+    border: 2px solid #4271A7;
+}
+.signupBottom {
+    margin-top: 12px;
+    padding-left: 35px;
+    padding-bottom: 37px;
+    padding-top: 37px; 
+    border: 2px solid #4271A7;
+    background-color: #e6edf4;
+}
+.btn1 {
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+.addProperty {
+    margin-top: 15px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+    padding-top: 34px;
+    padding-right: 45px; 
+}
+.container2{
+    background-image: url("images/unsplash2.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 87px;
+    padding-top: 37px; 
+    color:aliceblue;
+}
+.form1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-columns: span 2; */
+    grid-gap: 10px;
+    margin-bottom: 39px;
+}
+.fullWidth {
+    grid-column: span 2;
+}
+.header {
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+.btn9 {
+    border-radius: 6px;
+    padding: 7px 20px;
+}

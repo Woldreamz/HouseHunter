@@ -1,0 +1,67 @@
+/* todiv styling */
+.topDiv {
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+.flexContainer {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding-top: 18px;
+}
+.flexContainer h4 {
+    font-size: 1.3rem;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.flexContainer p {
+    font-size: 0.9rem;
+}
+.flexDiv {
+    flex: 1;
+    max-width: 388px;
+}
+/* second services div */
+.middleDiv {
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+.flexContainer2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.flexContainer2 p {
+    font-size: 1rem;
+   
+}
+.btn4 {
+    border-radius: 8px;
+}
+/* Gallery div */
+.gallery {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+@media (max-width: 1000px) {
+    .flexContainer {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    }
+    .flexDiv{
+        flex: 2;
+        align-self: center;
+    }
+}
+@media (max-width: 900px) {
+    .flexContainer2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+}
