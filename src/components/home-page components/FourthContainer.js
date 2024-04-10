@@ -1,4 +1,5 @@
 import styles from "@/app/home-page/homepage.module.css";
+import Image from 'next/image'
 
 export default function FourthContainer() {
     return (
@@ -30,7 +31,7 @@ export default function FourthContainer() {
                           <div className={styles.carouselItem}>
                           <div class="card" style={{width: "14rem"}}>
                               <div class="card-body">
-                                 <img src="images/Ellipse 1.png" alt="" height= "59px" width="56px"/>
+                                 <Image src="/images/Ellipse 1.png" alt="" height= {59} width={56}/>
                                  <h5 class="card-title title">Caleb Brown</h5><br />
                                  <h6 class="card-subtitle title mb-2 text-body-secondary">Photographer</h6><br />
                                  <span class="card-text">I am so glad that I stumbled across  Househunter websute. I can’t say enough about how professional and stressful it was looking for an apartment through them. </span>
@@ -39,7 +40,7 @@ export default function FourthContainer() {
 
                           <div class="card" style={{width: "14rem"}}>
                                 <div class="card-body">
-                                <img src="images/Ellipse 2.png" alt="" height= "59px" width="56px"/>
+                                <Image src="/images/Ellipse 2.png" alt="" height={59} width={56}/>
                                   <h5 class="card-title title">Dr. Michell</h5><br />
                                   <h6 class="card-subtitle title mb-2 text-body-secondary">Doctor</h6><br />
                                   <span class="card-text">Getting my new apartment was really easy. My kids and wife really love the area and it is closer to my place of work.</span>
@@ -49,7 +50,7 @@ export default function FourthContainer() {
 
                           <div class="card card3" style={{width: "14rem"}}>
                               <div class="card-body">
-                                 <img src="images/Ellipse 3.png" alt="" height= "59px" width="56px"/>
+                                 <Image src="/images/Ellipse 3.png" alt="" height={59} width={56}/>
                                  <h5 class="card-title title">Esther</h5><br />
                                  <h6 class="card-subtitle title mb-2 text-body-secondary">Influencer</h6><br />
                                  <span class="card-text">As a remote worker, my goal has always been to get an apartment with a stable light and serene environment. All thanks to househunter i was able to get what i want.</span>

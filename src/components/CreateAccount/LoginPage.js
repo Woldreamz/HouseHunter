@@ -1,5 +1,6 @@
 import styles from "@/components/CreateAccount/user.module.css";
 import Input from "../Input";
+import Image from 'next/image';
 
 export default function Loginpage() {
     return (
@@ -9,7 +10,7 @@ export default function Loginpage() {
           </div>
 
           <div className={styles.formDiv}>
-              <img src="images/house hunter logo icon.png" alt="house hunter icon" className={styles.loginImg}/>
+              <Image src="/images/house hunter logo icon.png" alt="house hunter icon" height={50} width={50} className={styles.loginImg}/>
              <h2 className={styles.heading}>Welcome to Househunter</h2>
              <p className={styles.para}>Welcome back! login with your data that you entered during registration.</p>
 
