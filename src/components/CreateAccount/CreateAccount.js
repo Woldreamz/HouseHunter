@@ -1,6 +1,7 @@
 import styles from "@/components/CreateAccount/user.module.css";
 import Input from "../Input";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function CreateUser() {
     return (
@@ -10,7 +11,7 @@ export default function CreateUser() {
           </div>
 
           <div className={styles.formDiv}>
-            <img src="images/house hunter logo icon.png" alt="house hunter icon" className={styles.loginImg}/>         
+            <Image src="/images/house hunter logo icon.png" alt="house hunter icon" height={50} width={50} className={styles.loginImg}/>         
             <h2 className={styles.heading}>Create Account</h2>
 
             <form>
