@@ -1,4 +1,5 @@
-import styles from "@/components/service-divs/service.module.css"
+import styles from "@/components/service-divs/service.module.css";
+import Image from 'next/image';
 
 export default function Gallery() {
     return(
@@ -8,17 +9,17 @@ export default function Gallery() {
 
             <div className={styles.flexContainer}>
               <div>
-                <img src="images/unsplash8.png" alt="living room picture"/>
+                <Image src="/images/unsplash8.png" width={383} height={222} alt="living room picture"/>
                 <button type="button" className="btn btn-sm btn-5">FOR RENT</button>
               </div>
 
               <div>
-                <img src="images/unsplash7.png" alt="picture of a living room"/>
+                <Image src="/images/unsplash7.png" width={383} height={222} alt="picture of a living room"/>
                 <button type="button" className="btn btn-sm btn-5">FOR SALE</button>
               </div>
 
               <div>
-                <img src="images/unsplash6.png" alt="picture of a house and pool"/>
+                <Image src="/images/unsplash6.png" width={383} height={222} alt="picture of a house and pool"/>
                 <button type="button" className="btn btn-sm btn-5">FOR RENT</button>
               </div>
             

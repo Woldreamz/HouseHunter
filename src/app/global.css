@@ -1,4 +1,5 @@
 
+/* html tags */
 body {
     font-family: "Ubuntu",sans-serif;
 }
@@ -56,14 +57,14 @@ li a {
     color: white;
 }
 
-
+/* css classes */
 .navbar-brand {
     padding-left: 4rem;
     padding-right: 3rem;
 
 }
 .nav-link {
-    margin-right: 4rem;
+    margin-right: 3.4rem;
 }
 .aboutcontainer {
     display: flex;
@@ -81,7 +82,7 @@ li a {
 .img-1 {
     flex: 1;
     max-width: 578.34px;
-    object-fit: cover;
+    object-fit: cover !important;
 }
 .flex-div {
     flex: 1;
@@ -131,6 +132,7 @@ li a {
     left: 120px;
 }
 
+/* responsiveness */
 @media (max-width: 900px) {
     .btn-1 {
         width: 20%;
@@ -171,6 +173,15 @@ li a {
     }
 }
 @media (max-width: 1000px) {
+    .btn-5 {
+        position: relative;
+        bottom: 60px;
+        left: -90px;
+
+    }
+}
+
+@media (max-width: 1250px) {
     .btn-5 {
         position: relative;
         bottom: 60px;

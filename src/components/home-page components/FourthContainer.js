@@ -1,5 +1,5 @@
 import styles from "@/app/home-page/homepage.module.css";
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function FourthContainer() {
     return (
@@ -11,7 +11,7 @@ export default function FourthContainer() {
                     <p style={{fontSize: "15px"}}>Choosing House hunter for your home search journey means opting for a distinctive and unparalleled experience. We stand out as your preferred house hunting partner for several reasons. Our commitment to transparency, a user-friendly interface, and eliminating agent fees sets us apart. With cutting-edge technology, personalized assistance, and a dedicated team, we ensure that your home search is not just a process but a seamless and enjoyable venture. </p>
                 </div>
 
-                <div className={styles.flex3Item1}><img src="images/unsplash2.png" alt="" className={styles.imgDiv} /></div>
+                <div className={styles.flex3Item1}><Image src="/images/unsplash2.png" alt="" width={316} height={281} className={styles.imgDiv} /></div>
             </div>
 
             <div className={styles.carousel}>
