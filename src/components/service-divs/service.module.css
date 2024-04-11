@@ -47,7 +47,16 @@
     padding-top: 25px;
     padding-bottom: 30px;
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1250px) {
+    .flexContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+}
+@media (max-width: 900px) {
     .flexContainer {
         flex-direction: column;
         gap: 40px;
@@ -60,8 +69,8 @@
 }
 @media (max-width: 900px) {
     .flexContainer2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        place-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
     }
 }

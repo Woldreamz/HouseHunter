@@ -1,4 +1,5 @@
 import styles from "@/app/home-page/homepage.module.css";
+import Image from 'next/image';
 
 export default function ThirdContainer() {
     return (
@@ -10,7 +11,7 @@ export default function ThirdContainer() {
 
             <div className={styles.flexDiv4}>
              <div class="card" className={styles.cardDiv} style={{width: "18rem"}}>
-                 <img src="images/image 5.png" class="card-img-top" alt=""/>
+                 <Image src="/images/image 5.png" className="card-img-top" width={286} height={313} alt=""/>
                  <div class="card-body">
                  <h6 class="card-title" style={{fontWeight: "bold"}}>Sky apartment</h6>
                  <span class="card-text">A room self-con</span><br />
@@ -21,7 +22,7 @@ export default function ThirdContainer() {
               </div>
 
               <div class="card" className={styles.cardDiv} style={{width: "18rem"}}>
-                 <img src="images/image 4.png" class="card-img-top" alt=""/>
+                 <Image src="/images/image 4.png" className="card-img-top" width={286} height={313} alt=""/>
                  <div class="card-body">
                  <h6 class="card-title" style={{fontWeight: "bold"}}>Sky apartment</h6>
                  <span class="card-text">2 bedroom flat</span><br />
@@ -32,7 +33,7 @@ export default function ThirdContainer() {
               </div>
 
               <div class="card" className={styles.cardDiv} style={{width: "18rem"}}>
-                 <img src="images/image 6.png" class="card-img-top" style={{height: "313px"}} alt=""/>
+                 <Image src="/images/image 6.png" className="card-img-top" width={286} height={313} alt=""/>
                  <div class="card-body">
                  <h6 class="card-title" style={{fontWeight: "bold"}}>Ocean bay Estate</h6>
                  <span class="card-text">Duplex</span><br />
