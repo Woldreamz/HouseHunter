@@ -76,6 +76,7 @@
 }
 @media (max-width: 500px) {
     .topDiv {
-        padding-left: 9px;
+        padding-left: 4px;
+        padding-right: 1px;
     }
 }

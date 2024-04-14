@@ -145,11 +145,12 @@
         justify-content: start;
         gap: 25px;
         font-size: 1.2rem !important;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 470px) {
     .dropdownMenu {
-        gap: 9px;
+        gap: 5px;
         justify-content: start !important;
         padding-left: 7px;
         width: 100%;
