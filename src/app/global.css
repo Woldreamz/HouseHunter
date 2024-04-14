@@ -200,4 +200,12 @@ li a {
     .file {
         width: 50% !important;
     }
+    .dropdown .btn-lg {
+        width: 99px;
+        font-size: smaller;
+    }
+    .search1 {
+        font-size: smaller !important;
+    }
+
 }
