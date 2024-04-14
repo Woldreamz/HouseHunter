@@ -21,7 +21,7 @@
     border-radius: 12px;
     background-color: #4983C2;
     color: #fff;
-    width: 18%;
+    width: 22%;
 }
 .teamInfo {
     display: flex;
@@ -55,5 +55,16 @@
         padding-left: 70px;
         width: 85%;
     }
+    .input2 {
+        width: 40%;
+    }
     
+}
+@media (max-width: 500px) {
+    .teamInfo {
+        gap: 20px;
+    }
+    .input2 {
+        width: 40%;
+    }
 }

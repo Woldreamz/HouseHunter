@@ -1,4 +1,5 @@
-import styles from "@/components/footer.module.css"
+import styles from "@/components/footer.module.css";
+import Link from "next/link";
 
 // footer container
 export default function Footer() {
@@ -38,7 +39,7 @@ export default function Footer() {
               </ul>
           </div>
           <div class={styles.footerDiv}>
-              <button type="button" class="btn btn-md  btn-light search">search</button>
+              <Link href="search"><button type="button" class="btn btn-md  btn-light search">search</button></Link>
               <h5>Follow us</h5>
               <i class="fab fa-facebook fa-1x"></i>
               <i class="fab fa-google fa-1x"></i>

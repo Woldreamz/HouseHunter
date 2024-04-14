@@ -11,6 +11,7 @@ export default function Login() {
               type="email" 
               id="email" 
               name="email"
+              className="input-comp"
            /> <br/>
            
            <label for="password">Password</label><br/>
@@ -18,6 +19,7 @@ export default function Login() {
                id="password" 
                name="password" 
                placeholder="Password(min. of 8 characters)"
+               className="input-comp"
            /><br/>
            <button className={styles.btn1} type="submit">Log in</button>
            </form>
