@@ -1,4 +1,5 @@
 import styles from "@/app/home-page/homepage.module.css";
+import Link from "next/link";
 
 export default function Firstcontainer() {
     return (
@@ -43,7 +44,7 @@ export default function Firstcontainer() {
                 </ul>
                 </div>
 
-                <button type="button" class="btn btn-secondary btn-lg search1">Search <i class="fa-solid fa-magnifying-glass fa-1x"></i></button> 
+                <Link href="search"><button type="button" class="btn btn-secondary btn-lg search1">Search <i class="fa-solid fa-magnifying-glass fa-1x"></i></button></Link> 
 
             </div>
 

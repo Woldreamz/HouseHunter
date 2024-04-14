@@ -3,6 +3,7 @@ import styles from "@/app/add-property/property.module.css";
 import Firstform from "./Firstform";
 import Secondform from "./Secondform";
 import Thirdform from "./Thirdform";
+import Link from "next/link";
 
 export default function Form() {
     return (
@@ -22,7 +23,7 @@ export default function Form() {
            and  Terms and Condition.</span><br/>
          <div style={{textAlign: "center"}}>
            <button style={{marginTop: "8px", marginBottom: "13px"}} type="submit" className={styles.btn9} >Add property</button><br/>
-           <button className={styles.btn9}>Return to HomePage</button>
+           <Link href="home-page"><button className={styles.btn9}>Return to HomePage</button></Link>
          </div>
          
         </form>

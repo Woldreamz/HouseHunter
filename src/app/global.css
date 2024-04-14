@@ -157,7 +157,12 @@ li a {
     .flex-div {
         flex: 2;
     }
-
+    .input-comp {
+        width: 50% !important;
+    }
+    .file {
+        width: 40% !important;
+    }
 
 }
 @media (max-width: 700px) {
@@ -171,6 +176,7 @@ li a {
     .card3 {
         display: none !important;
     }
+   
 }
 @media (max-width: 1000px) {
     .btn-5 {
@@ -187,5 +193,11 @@ li a {
         bottom: 60px;
         left: -90px;
 
+    }
+}
+
+@media (max-width: 500px) {
+    .file {
+        width: 50% !important;
     }
 }

@@ -21,7 +21,7 @@
 }
 .flexDiv {
     flex: 1;
-    max-width: 388px;
+    max-width: 388px !important;
 }
 /* second services div */
 .middleDiv {
