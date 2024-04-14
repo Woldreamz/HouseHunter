@@ -202,10 +202,10 @@ li a {
     }
     .dropdown .btn-lg {
         width: 99px;
-        font-size: smaller;
+        font-size: 9px !important;
     }
     .search1 {
-        font-size: smaller !important;
+        font-size: 9px !important;
     }
 
 }
