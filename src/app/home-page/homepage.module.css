@@ -143,14 +143,15 @@
     }
     .flexDiv5 {
         justify-content: start;
-        gap: 30px;
+        gap: 25px;
+        font-size: 1.5rem !important;
     }
 }
 @media (max-width: 470px) {
     .dropdownMenu {
-        gap: 15px;
-        justify-content: start;
-        padding-left: 12px;
+        gap: 9px;
+        justify-content: start !important;
+        padding-left: 7px;
         width: 100%;
     }
 }
