@@ -34,3 +34,10 @@
     border-radius: 6px;
     padding: 7px 20px;
 }
+@media (max-width: 600px) {
+    .addProperty {
+        padding-left: 29px;
+        padding-right: 29px;
+
+    }
+}
